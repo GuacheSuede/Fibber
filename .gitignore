@@ -1,0 +1,45 @@
+# running libraries
+node_modules
+
+# running configuration
+config.json
+config.js
+
+# dystroy's scripts, config & utilities
+deploy.sh
+autopgbackup.sh
+config-dystroy.json
+config-dystroy.js
+
+# personal notes & work files
+notes.dev
+sql/postgres.alter.sql
+trav
+pub
+graphics/*.png
+plugins/miaou.bot
+plugins/mountyhall
+plugins/miaou.static-user-list/
+
+# edition byproducts
+*.swp
+
+# compilation byproducts
+.sass-cache
+build
+
+# compiled files
+main.css
+miaou.concat.js
+miaou.min.js
+miaou.min.js.map
+static
+
+# execution byproducts
+*.log
+dump.rdb
+miaou.pid
+
+# vagrant
+.vagrant/
+vagrant/manifests/modules/*
